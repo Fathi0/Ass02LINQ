@@ -8,11 +8,17 @@ namespace LINQ
         static void Main(string[] args)
         {
             //Q1
-            var result = ProductList.OrderByDescending(P => P.UnitPrice).Take(3);
-            foreach(var P in result)
-            {
-                Console.WriteLine($"{P.ProductName} - {P.UnitPrice}");
-            }
+            //var result = ProductList.OrderByDescending(P => P.UnitPrice).Take(3);
+            //foreach(var P in result)
+            //{
+            //    Console.WriteLine($"{P.ProductName} - {P.UnitPrice}");
+            //}
+            //Q2
+            //var result = ProductList.Skip(5).Take(5);
+            //foreach(var P in result)
+            //{
+            //    Console.WriteLine($"{P.ProductName} - {P.UnitPrice}");
+            //}
         }
     }
 }
