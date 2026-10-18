@@ -31,6 +31,12 @@ namespace LINQ
             //Q5
             //int[] ids = { 3, 9, 13, 18 };
             //Console.WriteLine(ids.Contains(9));
+            //Q6
+            //var result = ProductList.GroupBy(P => P.Category);
+            //foreach(var group in result)
+            //{
+            //    Console.WriteLine($"{group.Key}: {group.Count()}");
+            //}
         }
     }
 }
