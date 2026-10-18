@@ -37,6 +37,16 @@ namespace LINQ
             //{
             //    Console.WriteLine($"{group.Key}: {group.Count()}");
             //}
+            //Q7
+            //var result = ProductList.GroupBy(P => P.Category).Select(G => new { Category = G.Key, ProductNames = G.Select(P => P.ProductName) });
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine(group.Category);
+
+            //    foreach (var name in group.ProductNames)
+            //        Console.WriteLine(name);
+            //}
+        }
         }
     }
 }
