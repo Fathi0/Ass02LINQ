@@ -19,6 +19,12 @@ namespace LINQ
             //{
             //    Console.WriteLine($"{P.ProductName} - {P.UnitPrice}");
             //}
+            //Q3
+            //var result = ProductList.OrderBy(P => P.UnitPrice).TakeWhile(P => P.UnitPrice < 25);
+            //foreach(var P in result)
+            //{
+            //    Console.WriteLine($"{P.ProductName} - {P.UnitPrice}");
+            //}
         }
     }
 }
