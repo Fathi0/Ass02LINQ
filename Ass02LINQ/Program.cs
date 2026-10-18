@@ -46,7 +46,10 @@ namespace LINQ
             //    foreach (var name in group.ProductNames)
             //        Console.WriteLine(name);
             //}
+            //Q8
+            //var result = ProductList.GroupBy(P => P.Category).Where(G => G.Count() > 3).Select(G => G.Key);
+            //foreach (var category in result)
+            //    Console.WriteLine(category);
         }
         }
     }
-}
