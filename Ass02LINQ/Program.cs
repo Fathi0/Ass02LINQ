@@ -28,6 +28,9 @@ namespace LINQ
             //Q4
             //bool result = ProductList.Where(P => P.Category == "Seafood").All(P => P.UnitPrice > 0);
             //Console.WriteLine(result);
+            //Q5
+            //int[] ids = { 3, 9, 13, 18 };
+            //Console.WriteLine(ids.Contains(9));
         }
     }
 }
